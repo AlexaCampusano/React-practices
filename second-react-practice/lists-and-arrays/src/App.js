@@ -48,6 +48,7 @@ class App extends Component {
             return <CharComponent 
             charValue={char} 
             click={() => this.deleteChar(index)}
+            key={index}
              />
           })
         }
